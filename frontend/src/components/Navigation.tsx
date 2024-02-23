@@ -38,10 +38,10 @@ const Navigation = () => {
           <CDBSidebarMenuItem icon="home">Home</CDBSidebarMenuItem>
         </NavLink>
         <NavLink exact to="/student" activeClassName="activeClicked">
-          <CDBSidebarMenuItem icon="list">Students List</CDBSidebarMenuItem>
+          <CDBSidebarMenuItem icon="list">Posts List</CDBSidebarMenuItem>
         </NavLink>
         <NavLink exact to="/manage" activeClassName="activeClicked">
-          <CDBSidebarMenuItem icon="user">Manage Students</CDBSidebarMenuItem>
+          <CDBSidebarMenuItem icon="user">Manage Posts</CDBSidebarMenuItem>
         </NavLink>
       </CDBSidebarMenu>
     </CDBSidebarContent>
